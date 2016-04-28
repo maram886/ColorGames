@@ -41,7 +41,7 @@ namespace WindowsFormsApplication1
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Form1 f = new Form1();
+            MainPage f = new MainPage();
             f.Show();
             this.Hide();
         }
@@ -72,7 +72,7 @@ namespace WindowsFormsApplication1
 
         private void button8_Click(object sender, EventArgs e)
         {
-            Form1 f = new Form1();
+            MainPage f = new MainPage();
             f.Show();
             this.Hide();
         }
@@ -150,7 +150,7 @@ namespace WindowsFormsApplication1
 
         private void label2_Click(object sender, EventArgs e)
         {
-            Form1 f = new Form1();
+            MainPage f = new MainPage();
             f.Show();
             this.Hide();
         }

@@ -10,7 +10,7 @@ using System.Drawing.Drawing2D;
 
 namespace WindowsFormsApplication1
 {
-    public partial class Form11 : Form
+    public partial class chooseGame : Form
     {
         bool paint = false;
         SolidBrush color = new SolidBrush(Color.DodgerBlue);
@@ -19,7 +19,7 @@ namespace WindowsFormsApplication1
         int i = 0;
 
 
-        public Form11()
+        public chooseGame()
         {
             InitializeComponent();
             this.Size = new Size(700, 600);
@@ -39,7 +39,7 @@ namespace WindowsFormsApplication1
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Form1 f = new Form1();
+            MainPage f = new MainPage();
             f.Show();
             this.Hide();
         }
@@ -70,7 +70,7 @@ namespace WindowsFormsApplication1
 
         private void button8_Click(object sender, EventArgs e)
         {
-            Form1 f = new Form1();
+            MainPage f = new MainPage();
             f.Show();
             this.Hide();
         }
@@ -149,7 +149,7 @@ namespace WindowsFormsApplication1
 
         private void label2_Click(object sender, EventArgs e)
         {
-            Form1 f = new Form1();
+            MainPage f = new MainPage();
             f.Show();
             this.Hide();
         }

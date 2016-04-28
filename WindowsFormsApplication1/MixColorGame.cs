@@ -36,7 +36,7 @@ namespace WindowsFormsApplication1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form1 f = new Form1();
+            MainPage f = new MainPage();
             f.Show();
             this.Hide();
         }

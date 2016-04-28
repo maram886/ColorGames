@@ -10,10 +10,10 @@ using System.Drawing.Drawing2D;
 
 namespace WindowsFormsApplication1
 {
-    public partial class Form1 : Form
+    public partial class MainPage : Form
     {
 
-        public Form1()
+        public MainPage()
         {
             InitializeComponent();
             this.Size = new Size(700, 600);
@@ -26,14 +26,28 @@ namespace WindowsFormsApplication1
 
         private void label2_Click(object sender, EventArgs e)
         {
-            Form11 f = new Form11();
+            chooseGame f = new chooseGame();
             f.Show();
             this.Hide();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form11 f = new Form11();
+            chooseGame f = new chooseGame();
+            f.Show();
+            this.Hide();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            DrawFR f = new DrawFR();
+            f.Show();
+            this.Hide();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MixColorGame f = new MixColorGame();
             f.Show();
             this.Hide();
         }

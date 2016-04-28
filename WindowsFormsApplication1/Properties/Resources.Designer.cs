@@ -121,11 +121,21 @@ namespace WindowsFormsApplication1.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap correct {
+            get {
+                object obj = ResourceManager.GetObject("correct", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
-        internal static System.IO.UnmanagedMemoryStream correct {
+        internal static System.IO.UnmanagedMemoryStream correct1 {
             get {
-                return ResourceManager.GetStream("correct", resourceCulture);
+                return ResourceManager.GetStream("correct1", resourceCulture);
             }
         }
         
