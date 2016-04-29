@@ -51,9 +51,9 @@ namespace WindowsFormsApplication1
 
             //yellow from group1 with group2 colors
             if ((radioButton1.Checked) && (radioButton5.Checked))
-            {
+            { button8.BackColor = Color.White; label6.Text = ""; 
                 label7.Text = "لقد اخترت نفس اللون للدمج، الرجاء اختيار لونين مختلفين";
-               //   button8.BackColor = Color.Red; label6.Text = "أحمر"; label6.ForeColor = Color.Red;
+             
             }
              else if ((radioButton1.Checked) && (radioButton6.Checked)){
                  label7.Text = "";
@@ -71,7 +71,7 @@ namespace WindowsFormsApplication1
                 label7.Text = ""; button8.BackColor = Color.Orange; label6.Text = "برتقالي"; label6.ForeColor = Color.Orange;
             }
             else if ((radioButton2.Checked) && (radioButton6.Checked)){
-               // button8.BackColor = Color.Yellow; label6.Text = "أصفر"; label6.ForeColor = Color.Yellow;
+                button8.BackColor = Color.White; label6.Text = ""; 
                 label7.Text = "لقد اخترت نفس اللون للدمج، الرجاء اختيار لونين مختلفين";
             }
             else if ((radioButton2.Checked) && (radioButton7.Checked)){
@@ -88,7 +88,7 @@ namespace WindowsFormsApplication1
                 label7.Text = ""; button8.BackColor = Color.Green; label6.Text = "أخضر"; label6.ForeColor = Color.Green;
             }
             else if ((radioButton3.Checked) && (radioButton7.Checked)){
-              //  button8.BackColor = Color.Blue; label6.Text = "أزرق"; label6.ForeColor = Color.Blue;
+                button8.BackColor = Color.White; label6.Text = ""; 
                 label7.Text = "لقد اخترت نفس اللون للدمج، الرجاء اختيار لونين مختلفين";
             }
             else if ((radioButton3.Checked) && (radioButton8.Checked)){
@@ -105,6 +105,7 @@ namespace WindowsFormsApplication1
                 label7.Text = ""; button8.BackColor = Color.SkyBlue; label6.Text = "سماوي"; label6.ForeColor = Color.SkyBlue;
             }
             else if ((radioButton4.Checked) && (radioButton8.Checked)){
+                button8.BackColor = Color.White; label6.Text = ""; 
                 label7.Text = "لقد اخترت نفس اللون للدمج، الرجاء اختيار لونين مختلفين";
               //  button8.BackColor = Color.White; label6.Text = "أبيض"; label6.ForeColor = Color.White;
             }
